@@ -1,0 +1,91 @@
+$navbar-togler-bg:$mademoiselle-color;
+$nav-border-color:$gray-300;
+$navbar-nav-color:$mademoiselle-color;
+$nav-link-color:$gray-900;
+header{
+    .navbar-brand{
+        max-width: 50%;
+        img{
+            width: 100%;
+            max-width: 196px;
+        }
+    }
+    //.navbar-brand end
+    .navbar-toggler{
+        &:focus{
+            box-shadow: none;
+        }
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $navbar-togler-bg;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+        //span end
+    }
+    //.navbar-toggler end
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                padding:10px;
+                text-align: center;
+                text-transform: uppercase;
+                border-bottom: 1px solid $nav-border-color;
+                &:hover,&.active{
+                    background-color: $navbar-nav-color;
+                    color: white;
+                }
+            }
+
+        }
+        //.nav-item 
+    }
+    //.navbar-nav end
+}
+//header end
+
+
+@media(min-width:768px){
+    header{
+        padding: 17.5px 0;
+        .navbar-nav{
+            .nav-item{
+                margin-left: 5.2rem;
+                .nav-link{
+                    padding: 5px 0 ;
+                                       border-bottom: 1px solid transparent;
+                    &:hover,&.active{
+                        border-bottom: 1px solid $navbar-nav-color;
+                        background-color: transparent;
+                        color:$nav-link-color;
+                    }
+                }
+
+            }
+            //.nav-item 
+        }
+        //.navbar-nav end
+    }
+    //header end
+}
+//media 768 end
+
+@media(min-width:992px){
+    header{
+        padding: 25.5px 0;
+        .navbar-nav{
+            .nav-item{
+                margin-left: 7.2rem;
+            }
+
+        }
+        //.nav-item 
+    }
+    //.navbar-nav end
+}
