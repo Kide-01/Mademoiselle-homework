@@ -5,3 +5,23 @@ img{
 body{
     font-family:$base-font;
 }
+a{
+    text-decoration: none;
+}
+.section-title{
+    font-family: $bodoni;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 4.5rem;
+   
+    &:after{
+        content: '';
+        height: 1px;
+        width: 74px;
+        background-color:$mademoiselle-color;
+        display: block;
+        position: relative;
+        margin-top: 38px;
+    }
+}
