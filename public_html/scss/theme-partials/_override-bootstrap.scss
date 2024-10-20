@@ -1,15 +1,41 @@
 html{
     font-size: 10px;
- 
+
 }
 
 $font-size-base:1.6rem;
 
 // override bootstrap variables
 
-$mademoiselle-color:#D0B6B6; 
-$grid-gutter-width:12px;  
-$gray-900:#1E1E1E;  
+$mademoiselle-color:#D0B6B6;
+$mademoiselle-color-hover:darken($mademoiselle-color,10%);
+$grid-gutter-width:12px;
+$gray-900:#1E1E1E;
 //$primary:#1A77CD;       //primarna boja
 
 
+.btn-mademoiselle{
+    @extend .btn;
+    background-color: $mademoiselle-color;
+    color: #fff;
+    border: none;
+    &:hover {
+        background-color: $mademoiselle-color-hover;
+    }
+}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1650px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1570px
+);
