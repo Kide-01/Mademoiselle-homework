@@ -9,6 +9,9 @@ footer{
             color: $social-icons-color;
             margin: 0 15px;
             font-size: 2rem;
+            &:hover{
+                animation: hithere 1s ease;
+            }
         }
     }
     // social end

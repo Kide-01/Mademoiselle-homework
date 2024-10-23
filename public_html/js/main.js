@@ -14,8 +14,7 @@ $(document).ready(function () {
             }
         });
     }
-
-
+    
     $(window).scroll(function () {
         animation();
     });
@@ -25,7 +24,7 @@ $(document).ready(function () {
 
     if ($(".professionals-slider").length > 0) {
         $(".professionals-slider").owlCarousel({
-            loop: true, 
+            loop: true,
             autoplay: true,
             responsive: {
                 0: {
@@ -35,10 +34,10 @@ $(document).ready(function () {
                 768: {
                     items: 1,
                     margin: 30
-                    
+
                 }
             }
         });
     }
 
- });
+});
