@@ -1,0 +1,101 @@
+$border-color:#ECD9D9;
+.professionals-section{
+    margin-top: 60px;
+    .professionals-slider{
+        border: 1px solid $border-color;
+        margin-top: 42px;
+        padding: 20px;
+        .professionals-member-content{
+            .professionals-member-name{
+                margin-bottom: 20px;
+                a{
+                    font-size: 3rem;
+                    letter-spacing: 0;
+                    line-height: 2.7rem;
+                    color: $gray-900;
+                }
+            }
+            //.professionals-member-name end
+            .professionals-member-info{
+                font-size: 1.6rem;
+                font-weight: 300;
+                letter-spacing: 0;
+                line-height: 2.3rem;
+            }
+            //.professionals-member-info end
+        }
+        //.professionals-member-content end
+    }
+    //.professionals-slider end
+}
+//.professionals-section end
+
+//media start
+@media(min-width:768px){
+    .professionals-section{
+        margin-top: 111px;
+        .professionals-slider{
+            border: 1px solid $border-color;
+            margin-top: 42px;
+            padding:34px ;
+            .professionals-member-content{
+                margin-left: 30px;
+                .professionals-member-name{
+                    margin-bottom: 20px;
+                }
+                //.professionals-member-name end
+            }
+            //.professionals-member-content end
+        }
+        //.professionals-slider end
+    }
+    //.professionals-section end
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 18px;
+        margin-right: 90px;
+    }
+}
+// media 768 end
+
+@media(min-width:992px){
+    .professionals-section{
+        .professionals-slider{
+            padding: 54px 0px ;
+            .professionals-member-content{
+                margin-left: 0px;
+                .professionals-member-name{
+                    margin-bottom: 20px;
+                }
+                //.professionals-member-name end
+            }
+            //.professionals-member-content end
+        }
+        //.professionals-slider end
+    }
+    //.professionals-section end
+    //owl dots
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: -13px;
+        margin-right: 0px;
+        margin-left:60px;
+        z-index: 10;
+    }
+    // owl dots end
+}
+// media 992 end
+@media(min-width:1200px){
+    .professionals-section{
+        .professionals-slider{
+            .professionals-member-content{
+                .professionals-member-name{
+                    margin-bottom: 35px;
+                }
+
+            }
+            //.professionals-member-content end
+        }
+        //.professionals-slider end
+    }
+    //.professionals-section end
+}
+// media 1200 end

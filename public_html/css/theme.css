@@ -12865,4 +12865,77 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   }
 }
 
+.professionals-section {
+  margin-top: 60px;
+}
+
+.professionals-section .professionals-slider {
+  border: 1px solid #ECD9D9;
+  margin-top: 42px;
+  padding: 20px;
+}
+
+.professionals-section .professionals-slider .professionals-member-content .professionals-member-name {
+  margin-bottom: 20px;
+}
+
+.professionals-section .professionals-slider .professionals-member-content .professionals-member-name a {
+  font-size: 3rem;
+  letter-spacing: 0;
+  line-height: 2.7rem;
+  color: #1E1E1E;
+}
+
+.professionals-section .professionals-slider .professionals-member-content .professionals-member-info {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.3rem;
+}
+
+@media (min-width: 768px) {
+  .professionals-section {
+    margin-top: 111px;
+  }
+  .professionals-section .professionals-slider {
+    border: 1px solid #ECD9D9;
+    margin-top: 42px;
+    padding: 34px;
+  }
+  .professionals-section .professionals-slider .professionals-member-content {
+    margin-left: 30px;
+  }
+  .professionals-section .professionals-slider .professionals-member-content .professionals-member-name {
+    margin-bottom: 20px;
+  }
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 18px;
+    margin-right: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .professionals-section .professionals-slider {
+    padding: 54px 0px;
+  }
+  .professionals-section .professionals-slider .professionals-member-content {
+    margin-left: 0px;
+  }
+  .professionals-section .professionals-slider .professionals-member-content .professionals-member-name {
+    margin-bottom: 20px;
+  }
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: -13px;
+    margin-right: 0px;
+    margin-left: 60px;
+    z-index: 10;
+  }
+}
+
+@media (min-width: 1200px) {
+  .professionals-section .professionals-slider .professionals-member-content .professionals-member-name {
+    margin-bottom: 35px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
