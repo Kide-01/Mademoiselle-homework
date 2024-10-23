@@ -1,0 +1,26 @@
+$social-icons-color:#ECD9D9;
+$footer-text:$gray-900;
+footer{
+    margin-top: 67px;
+    padding: 49px 0 25px 0;
+    .social{
+        // margin-bottom: 19px;
+        a{
+            color: $social-icons-color;
+            margin: 0 15px;
+            font-size: 2rem;
+        }
+    }
+    // social end
+    .copyright{
+        margin-top: 19px;
+        color: $footer-text;
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        a{
+            color: $footer-text;
+        }
+    }
+    //.copyright end
+}
+//footer end

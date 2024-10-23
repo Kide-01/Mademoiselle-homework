@@ -12938,4 +12938,26 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   }
 }
 
+footer {
+  margin-top: 67px;
+  padding: 49px 0 25px 0;
+}
+
+footer .social a {
+  color: #ECD9D9;
+  margin: 0 15px;
+  font-size: 2rem;
+}
+
+footer .copyright {
+  margin-top: 19px;
+  color: #1E1E1E;
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+}
+
+footer .copyright a {
+  color: #1E1E1E;
+}
+
 /*# sourceMappingURL=theme.css.map */
