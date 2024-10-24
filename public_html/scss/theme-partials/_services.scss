@@ -49,6 +49,11 @@ $article-bg-pink: #ECD9D9;
 }
 //.services-section end
 
+//SERVICES-PAGE
+.services_page-services-section{
+    margin-top: 60px;
+}
+
 // Media start
 
 @media (min-width: 768px) {
@@ -59,6 +64,12 @@ $article-bg-pink: #ECD9D9;
         }
     }
     //.services-section end
+    
+    // SERVICE PAGE MEDIA 
+    
+    .services_page-services-section{
+        margin-top: 88px;
+    }
 }
 //media 768 end
 

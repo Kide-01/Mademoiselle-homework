@@ -4258,15 +4258,15 @@ fieldset:disabled .btn-mademoiselle {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-color: #1e1e1e;
+  --bs-navbar-hover-color: #1e1e1e;
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-  --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-active-color: #1e1e1e;
   --bs-navbar-brand-padding-y: 0.2rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 2rem;
-  --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-color: #1e1e1e;
+  --bs-navbar-brand-hover-color: #1e1e1e;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -12871,12 +12871,19 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   display: block;
 }
 
+.services_page-services-section {
+  margin-top: 60px;
+}
+
 @media (min-width: 768px) {
   .services-section {
     margin-top: 113px;
   }
   .services-section .services-item {
     padding: 0;
+  }
+  .services_page-services-section {
+    margin-top: 88px;
   }
 }
 

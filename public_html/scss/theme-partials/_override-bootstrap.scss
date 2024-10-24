@@ -7,6 +7,10 @@ $font-size-base:1.6rem;
 
 // override bootstrap variables
 
+$navbar-light-color:                rgba(30,30,30, 1);
+$navbar-light-hover-color:           rgba(30,30,30, 1);
+$navbar-light-active-color:          rgba(30,30,30, 1);
+
 $mademoiselle-color:#D0B6B6;
 $mademoiselle-color-hover:darken($mademoiselle-color,10%);
 $grid-gutter-width:12px;
