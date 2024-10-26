@@ -1,18 +1,19 @@
 $trends-description-bg:$white;
 $trends-link-color:$gray-900;
 .trends-section{
-    margin-top: 60px; 
+    margin-top: 60px;
     .trends-item-wrapper{
         margin-top: 43px;
         .trends-item-description{
             background-color: $trends-description-bg;
-            left: 17px;
-            right: 17px;
-            top: 67%;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 50%);
             padding: 22px 18px 57px;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
+            width: 85%;
             max-width: 313px;
             max-height: 161px;
             a{
@@ -31,18 +32,23 @@ $trends-link-color:$gray-900;
                 height: 2*24px;
                 overflow: hidden;
             }
-        }//.trends-item-description end
-    }// .trends-item-wrapper end
-}//.trends-section end
-
-
-
-
-
-
+        }
+        //.trends-item-description end
+    }
+    // .trends-item-wrapper end
+}
+//.trends-section end
 
 @media(min-width:768px){
     .trends-section{
-        margin-top:75px; 
+        margin-top:75px;
+        .trends-item-wrapper{
+            .trends-item-description{
+                width: 100%;
+            }
+        }
     }
-}//media 768 end
+}
+//media 768 end
+
+

@@ -23,8 +23,8 @@
         margin-top: calc(64px + 70px);
         .single-service-caption{
             .single-service-description{
-                overflow: hidden;
-                height:calc(7 * 2.2rem);
+                overflow-y: auto;
+               max-height:calc(7 * 2.2rem);
             }
         }
         //.single-service-caption end

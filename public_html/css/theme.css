@@ -12643,6 +12643,14 @@ a {
   margin-top: 30px;
 }
 
+.pagintaion-footer {
+  margin-top: 41px;
+}
+
+.active-page {
+  font-weight: 700 !important;
+}
+
 header .navbar-brand {
   max-width: 50%;
 }
@@ -12790,13 +12798,14 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 
 .trends-section .trends-item-wrapper .trends-item-description {
   background-color: #fff;
-  left: 17px;
-  right: 17px;
-  top: 67%;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
   padding: 22px 18px 57px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 85%;
   max-width: 313px;
   max-height: 161px;
 }
@@ -12822,6 +12831,9 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 @media (min-width: 768px) {
   .trends-section {
     margin-top: 75px;
+  }
+  .trends-section .trends-item-wrapper .trends-item-description {
+    width: 100%;
   }
 }
 
@@ -13016,8 +13028,8 @@ footer .copyright a {
     margin-top: calc(64px + 70px);
   }
   .single-service-section .single-service-caption .single-service-description {
-    overflow: hidden;
-    height: calc(7 * 2.2rem);
+    overflow-y: auto;
+    max-height: calc(7 * 2.2rem);
   }
 }
 
@@ -13045,6 +13057,28 @@ footer .copyright a {
     font-size: 1.8rem;
     line-height: 2.6rem;
   }
+}
+
+.page-nav {
+  margin-top: 89px;
+}
+
+.page-nav .page-item .page-link {
+  color: #1E1E1E;
+  font-family: "Bodoni 72" !important;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  border: none;
+}
+
+.page-nav .page-item .page-link back span {
+  font-family: "Bodoni 72" !important;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=theme.css.map */
