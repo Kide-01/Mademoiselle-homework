@@ -1,0 +1,118 @@
+$form-text:$gray-900;
+$form-bg-color:#253D61;
+$info-bg:#ECD9D9;
+.contact-section{
+    margin-top: 102px;
+    h2{
+        font-family: $bodoni;
+        font-size: 3rem;
+        font-weight: 300;
+        letter-spacing: 5px;
+        line-height: 4.5rem;
+    }
+    //h2 end
+    .form-group{
+        margin-bottom: 19px;
+        &:last-of-type{
+            margin-bottom: 0px;
+            margin-top: 29px;
+        }
+        .form-control{
+            color: $form-text;
+            font-family: $lato;
+            font-size: 1.6rem;
+            font-weight: 300;
+            letter-spacing: -0.23px;
+            line-height: 2.5rem;
+            background-color: rgba(#253D61,0.02);
+            &::placeholder {
+                color: #586C88;
+                opacity: 0.8;
+            }
+        }
+    }
+    //.form-group end
+    button{
+        color: $form-text;
+        font-family: $lato ;
+        font-size: 1.4rem;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+        text-align: center;
+    }
+    .google-map{
+        padding-bottom: 50%;
+        position: relative;
+        iframe {
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+        }
+    }
+}//.contact-section end
+
+.info-section{
+    margin-top: 110px;
+    padding: 63px 0 60px;
+    background-color: $info-bg;
+    p{
+        color: $gray-900;
+        font-family: $lato;
+        font-size: 2.4rem;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 2.5rem;
+        margin-bottom: 15px;
+        & a{
+            color: $gray-900;
+            font-family: $lato;
+            font-size: 2.4rem;
+            font-weight: 300;
+            letter-spacing: 0;
+            line-height: 2.5rem;
+        }
+        &:last-of-type{
+            margin-bottom: 0px;
+        }
+    }
+}//info-section end
+footer{
+    margin-top: 46px;
+}
+
+
+//MEDIA 
+@media(min-width:992px){
+    .contact-section{
+        .google-map{
+            padding-bottom:118%;
+            padding-right: 0%;
+            position: relative;
+            iframe {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}
+@media(min-width:1200px){
+    .contact-section{
+        .google-map{
+            padding-bottom:110%;
+            padding-right: 0%;
+            position: relative;
+            iframe {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}

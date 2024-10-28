@@ -8,6 +8,25 @@ body{
 a{
     text-decoration: none;
 }
+//CUSTOM CLASSES
+
+.span-margin-fix{
+        padding-top: 43px;
+    //media start
+    @media(min-width:424px){
+        padding-top: 49px;
+    }
+    @media(min-width:576px){
+        padding-top: 59px;
+    }
+    @media(min-width:768px){
+        padding-top: 64px;
+    }
+    @media(min-width:992px){
+        padding-top: 80px;
+    }
+}
+
 .section-title{
     font-family: $bodoni;
     font-size: 3rem;
@@ -15,7 +34,7 @@ a{
     letter-spacing: 5px;
     line-height: 4.5rem;
     text-transform: uppercase;
-   
+
     &:after{
         content: '';
         height: 1px;

@@ -6,7 +6,6 @@ $lead-text-color:$white;
     background-size: cover;
     width: 100%;
     height: auto;
-    margin-top: 42px;
 
     .hero-wrapper{
         padding: 92px 0 100px;
@@ -23,16 +22,8 @@ $lead-text-color:$white;
 }
 //.hero-section.end
 
-@media(min-width:424px){
-    .hero-section{
-        margin-top: 49px;
-    }
-}
-// media min-width:424px end
-
 @media(min-width:576px){
     .hero-section{
-        margin-top: 59px;
         .hero-wrapper{
             padding: 105px 0 125px;
             .hero-text{
@@ -48,7 +39,6 @@ $lead-text-color:$white;
 // media min-width:576px end
 @media(min-width:768px){
     .hero-section{
-        margin-top: 64px;
         height: 60vh;
         .hero-wrapper{
             padding: 130px 0 150px;
@@ -65,7 +55,6 @@ $lead-text-color:$white;
 // media min-width:768px end
 @media(min-width:992px){
     .hero-section{
-        margin-top: 80px;
         height: 100vh;
         .hero-wrapper{
             padding: 135px 0 150px;

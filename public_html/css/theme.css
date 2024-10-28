@@ -12624,6 +12624,34 @@ a {
   text-decoration: none;
 }
 
+.span-margin-fix {
+  padding-top: 43px;
+}
+
+@media (min-width: 424px) {
+  .span-margin-fix {
+    padding-top: 49px;
+  }
+}
+
+@media (min-width: 576px) {
+  .span-margin-fix {
+    padding-top: 59px;
+  }
+}
+
+@media (min-width: 768px) {
+  .span-margin-fix {
+    padding-top: 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  .span-margin-fix {
+    padding-top: 80px;
+  }
+}
+
 .section-title {
   font-family: "Bodoni";
   font-size: 3rem;
@@ -12723,7 +12751,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   background-size: cover;
   width: 100%;
   height: auto;
-  margin-top: 42px;
 }
 
 .hero-section .hero-wrapper {
@@ -12738,16 +12765,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   color: #fff;
 }
 
-@media (min-width: 424px) {
-  .hero-section {
-    margin-top: 49px;
-  }
-}
-
 @media (min-width: 576px) {
-  .hero-section {
-    margin-top: 59px;
-  }
   .hero-section .hero-wrapper {
     padding: 105px 0 125px;
   }
@@ -12760,7 +12778,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 
 @media (min-width: 768px) {
   .hero-section {
-    margin-top: 64px;
     height: 60vh;
   }
   .hero-section .hero-wrapper {
@@ -12775,7 +12792,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 
 @media (min-width: 992px) {
   .hero-section {
-    margin-top: 80px;
     height: 100vh;
   }
   .hero-section .hero-wrapper {
@@ -13079,6 +13095,127 @@ footer .copyright a {
   font-weight: 300;
   letter-spacing: 0;
   line-height: 24px;
+}
+
+.contact-section {
+  margin-top: 102px;
+}
+
+.contact-section h2, .contact-section .h2 {
+  font-family: "Bodoni";
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 4.5rem;
+}
+
+.contact-section .form-group {
+  margin-bottom: 19px;
+}
+
+.contact-section .form-group:last-of-type {
+  margin-bottom: 0px;
+  margin-top: 29px;
+}
+
+.contact-section .form-group .form-control {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: -0.23px;
+  line-height: 2.5rem;
+  background-color: rgba(37, 61, 97, 0.02);
+}
+
+.contact-section .form-group .form-control::placeholder {
+  color: #586C88;
+  opacity: 0.8;
+}
+
+.contact-section button {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  line-height: 1.7rem;
+  text-align: center;
+}
+
+.contact-section .google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.contact-section .google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.info-section {
+  margin-top: 110px;
+  padding: 63px 0 60px;
+  background-color: #ECD9D9;
+}
+
+.info-section p {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.info-section p a {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+}
+
+.info-section p:last-of-type {
+  margin-bottom: 0px;
+}
+
+footer {
+  margin-top: 46px;
+}
+
+@media (min-width: 992px) {
+  .contact-section .google-map {
+    padding-bottom: 118%;
+    padding-right: 0%;
+    position: relative;
+  }
+  .contact-section .google-map iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-section .google-map {
+    padding-bottom: 110%;
+    padding-right: 0%;
+    position: relative;
+  }
+  .contact-section .google-map iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
