@@ -13218,4 +13218,101 @@ footer {
   }
 }
 
+.blog-page-section {
+  margin-top: 20px;
+}
+
+.blog-page-section .category {
+  color: #1E1E1E;
+  font-family: "Bodoni 72";
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.blog-page-section .date-published {
+  color: #1E1E1E;
+  color: #1E1E1E;
+  font-family: "Bodoni 72";
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.blog-page-section .blog-section-title {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-size: 4.4rem;
+  letter-spacing: 0px;
+  line-height: 5rem;
+}
+
+.blog-page-section .blog-section-description {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.8rem;
+}
+
+.blog-single-content {
+  padding: 50px 0 100px;
+}
+
+.blog-single-content img {
+  width: 100%;
+  margin: 22px 0;
+}
+
+.blog-single-content p {
+  margin-bottom: 3rem;
+}
+
+.blog-single-content p:last-of-type {
+  margin-bottom: 4.1rem;
+}
+
+.blog-single-content .blog-tags p {
+  font-family: "Bodoni 72";
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.7rem;
+  margin-bottom: 19px;
+}
+
+.blog-single-content .blog-tags a {
+  text-transform: lowercase;
+  font-family: "Bodoni 72";
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 2.7rem;
+}
+
+.footer-blog {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .blog-page-section {
+    margin-top: 80px;
+  }
+  .blog-single-content {
+    padding: 75px 0 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-page-section {
+    margin-top: 165px;
+  }
+  .blog-single-content {
+    padding: 97px 0 273px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
