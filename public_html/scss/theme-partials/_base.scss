@@ -7,7 +7,9 @@ body{
 }
 a{
     text-decoration: none;
+    color: $gray-900;
 }
+
 //CUSTOM CLASSES
 
 .span-margin-fix{
@@ -43,13 +45,7 @@ a{
         display: block;
         position: relative;
         margin-top: 30px;
+        margin-bottom: 42px;
     }
 }
-//pagintation
 
-.pagintaion-footer{
-    margin-top: 41px;
-}
-.active-page{
-    font-weight: 700 !important;
-}

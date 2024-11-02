@@ -1,6 +1,6 @@
 .single-service-section{
-    margin-top: 90px;
-    .single-service-caption{
+    padding-top: 50px;
+        .single-service-caption{
         .single-service-title{
             font-family:$lato;
             font-size: 3rem;
@@ -15,16 +15,17 @@
         }
     }
 }
-
+.single-services-trends-section{
+    margin-bottom: 100px;
+}
 // MEDIA START
 
 @media(min-width:768px){
     .single-service-section{
-        margin-top: calc(64px + 70px);
         .single-service-caption{
             .single-service-description{
                 overflow-y: auto;
-               max-height:calc(7 * 2.2rem);
+                max-height:calc(7 * 2.2rem);
             }
         }
         //.single-service-caption end
@@ -34,7 +35,6 @@
 //media 768 end;
 @media(min-width:992px){
     .single-service-section{
-        margin-top: 80px;
         padding: 90px 0 15px;
         .single-service-caption{
             .single-service-description{
@@ -43,13 +43,15 @@
             }
         }
     }
+    .single-services-trends-section{
+    margin-bottom: 170px;
+}
 }
 //media 992 end
 
 @media(min-width:1200px){
     .single-service-section{
-        margin-top: 80px;
-        padding: 170px 0 106px;
+              padding: 170px 0 106px;
         .single-service-caption{
             .single-service-title{
                 font-size: 4.4rem;
@@ -63,5 +65,8 @@
         //.single-service-caption end
     }
     //.single-service-section end
+    .single-services-trends-section{
+    margin-bottom: 216px;
 }
-//media 992 end
+}
+//media 1200 end

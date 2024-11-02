@@ -3,7 +3,6 @@ $border-color:#ECD9D9;
     margin-top: 60px;
     .professionals-slider{
         border: 1px solid $border-color;
-        margin-top: 42px;
         padding: 20px;
         .professionals-member-content{
             .professionals-member-name{
@@ -36,8 +35,7 @@ $border-color:#ECD9D9;
         margin-top: 111px;
         .professionals-slider{
             border: 1px solid $border-color;
-            margin-top: 42px;
-            padding:34px ;
+                       padding:34px ;
             .professionals-member-content{
                 margin-left: 30px;
                 .professionals-member-name{
@@ -61,6 +59,7 @@ $border-color:#ECD9D9;
     .professionals-section{
         .professionals-slider{
             padding: 54px 0px ;
+            margin-bottom: 67px;
             .professionals-member-content{
                 margin-left: 0px;
                 .professionals-member-name{

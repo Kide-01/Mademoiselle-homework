@@ -3,8 +3,9 @@ $trends-link-color:$gray-900;
 .trends-section{
     margin-top: 60px;
     .trends-item-wrapper{
-        margin-top: 43px;
-        .trends-item-description{
+        margin-bottom: 0px;
+    
+               .trends-item-description{
             background-color: $trends-description-bg;
             left: 50%;
             bottom: 0;
@@ -16,7 +17,8 @@ $trends-link-color:$gray-900;
             width: 85%;
             max-width: 313px;
             max-height: 161px;
-            a{
+            z-index: 10;
+            .trends-date{
                 font-family: $bodini72;
                 font-style: italic;
                 font-size: 1.4rem;
@@ -24,13 +26,16 @@ $trends-link-color:$gray-900;
                 letter-spacing: 0.1rem;
                 color: $trends-link-color;
             }
-            p{
-                font-size: 1.6rem;
-                letter-spacing: 0;
-                line-height: 2.4rem;
+            .trends-text{
                 margin-top: 17px;
+                margin-bottom: 0px;
                 height: 2*24px;
                 overflow: hidden;
+                a{
+                    font-size: 1.6rem;
+                    letter-spacing: 0;
+                    line-height: 2.4rem;
+                                    }
             }
         }
         //.trends-item-description end
@@ -44,11 +49,21 @@ $trends-link-color:$gray-900;
         margin-top:75px;
         .trends-item-wrapper{
             .trends-item-description{
-                width: 100%;
+                width: 90%;
             }
         }
     }
 }
 //media 768 end
 
-
+@media(min-width:1200px){
+    .trends-section{
+        margin-top:75px;
+        .trends-item-wrapper{
+            .trends-item-description{
+                width: 100%;
+            }
+        }
+    }
+}
+//media 1200 end

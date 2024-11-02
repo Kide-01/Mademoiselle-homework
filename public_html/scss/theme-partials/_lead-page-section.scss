@@ -16,6 +16,14 @@ $lead-text-color:$white;
             letter-spacing: 10px;
             color: $lead-text-color;
         }
+        .hero-link{
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            line-height: 17px;
+            &:hover{
+                color: $gray-900!important;
+            }
+        }
     }
     //.hero-wrapper end
 
@@ -69,3 +77,4 @@ $lead-text-color:$white;
     //.hero-section.end
 }
 // media min-width:992px end
+

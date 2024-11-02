@@ -12622,6 +12622,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #1E1E1E;
 }
 
 .span-margin-fix {
@@ -12669,14 +12670,7 @@ a {
   display: block;
   position: relative;
   margin-top: 30px;
-}
-
-.pagintaion-footer {
-  margin-top: 41px;
-}
-
-.active-page {
-  font-weight: 700 !important;
+  margin-bottom: 42px;
 }
 
 header .navbar-brand {
@@ -12765,6 +12759,16 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   color: #fff;
 }
 
+.hero-section .hero-wrapper .hero-link {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+}
+
+.hero-section .hero-wrapper .hero-link:hover {
+  color: #1E1E1E !important;
+}
+
 @media (min-width: 576px) {
   .hero-section .hero-wrapper {
     padding: 105px 0 125px;
@@ -12809,7 +12813,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 }
 
 .trends-section .trends-item-wrapper {
-  margin-top: 43px;
+  margin-bottom: 0px;
 }
 
 .trends-section .trends-item-wrapper .trends-item-description {
@@ -12824,9 +12828,10 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   width: 85%;
   max-width: 313px;
   max-height: 161px;
+  z-index: 10;
 }
 
-.trends-section .trends-item-wrapper .trends-item-description a {
+.trends-section .trends-item-wrapper .trends-item-description .trends-date {
   font-family: "Bodoni 72";
   font-style: italic;
   font-size: 1.4rem;
@@ -12835,16 +12840,29 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   color: #1E1E1E;
 }
 
-.trends-section .trends-item-wrapper .trends-item-description p {
-  font-size: 1.6rem;
-  letter-spacing: 0;
-  line-height: 2.4rem;
+.trends-section .trends-item-wrapper .trends-item-description .trends-text {
   margin-top: 17px;
+  margin-bottom: 0px;
   height: 48px;
   overflow: hidden;
 }
 
+.trends-section .trends-item-wrapper .trends-item-description .trends-text a {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  line-height: 2.4rem;
+}
+
 @media (min-width: 768px) {
+  .trends-section {
+    margin-top: 75px;
+  }
+  .trends-section .trends-item-wrapper .trends-item-description {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
   .trends-section {
     margin-top: 75px;
   }
@@ -12855,6 +12873,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 
 .services-section {
   margin-top: 60px;
+  margin-bottom: 37px;
 }
 
 .services-section h2, .services-section .h2 {
@@ -12928,7 +12947,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 
 .professionals-section .professionals-slider {
   border: 1px solid #ECD9D9;
-  margin-top: 42px;
   padding: 20px;
 }
 
@@ -12956,7 +12974,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   }
   .professionals-section .professionals-slider {
     border: 1px solid #ECD9D9;
-    margin-top: 42px;
     padding: 34px;
   }
   .professionals-section .professionals-slider .professionals-member-content {
@@ -12974,6 +12991,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 @media (min-width: 992px) {
   .professionals-section .professionals-slider {
     padding: 54px 0px;
+    margin-bottom: 67px;
   }
   .professionals-section .professionals-slider .professionals-member-content {
     margin-left: 0px;
@@ -12996,7 +13014,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 }
 
 footer {
-  margin-top: 67px;
   padding: 49px 0 25px 0;
 }
 
@@ -13022,7 +13039,7 @@ footer .copyright a {
 }
 
 .single-service-section {
-  margin-top: 90px;
+  padding-top: 50px;
 }
 
 .single-service-section .single-service-caption .single-service-title {
@@ -13039,10 +13056,11 @@ footer .copyright a {
   line-height: 2.2rem;
 }
 
+.single-services-trends-section {
+  margin-bottom: 100px;
+}
+
 @media (min-width: 768px) {
-  .single-service-section {
-    margin-top: calc(64px + 70px);
-  }
   .single-service-section .single-service-caption .single-service-description {
     overflow-y: auto;
     max-height: calc(7 * 2.2rem);
@@ -13051,18 +13069,19 @@ footer .copyright a {
 
 @media (min-width: 992px) {
   .single-service-section {
-    margin-top: 80px;
     padding: 90px 0 15px;
   }
   .single-service-section .single-service-caption .single-service-description {
     overflow: unset;
     height: auto;
   }
+  .single-services-trends-section {
+    margin-bottom: 170px;
+  }
 }
 
 @media (min-width: 1200px) {
   .single-service-section {
-    margin-top: 80px;
     padding: 170px 0 106px;
   }
   .single-service-section .single-service-caption .single-service-title {
@@ -13073,10 +13092,14 @@ footer .copyright a {
     font-size: 1.8rem;
     line-height: 2.6rem;
   }
+  .single-services-trends-section {
+    margin-bottom: 216px;
+  }
 }
 
 .page-nav {
   margin-top: 89px;
+  margin-bottom: 41px;
 }
 
 .page-nav .page-item .page-link {
@@ -13095,6 +13118,25 @@ footer .copyright a {
   font-weight: 300;
   letter-spacing: 0;
   line-height: 24px;
+}
+
+.active-page {
+  font-weight: 700 !important;
+}
+
+@media (min-width: 992px) {
+  .blog-item-wrapper {
+    margin-bottom: 50px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-item-wrapper {
+    margin-bottom: 119px !important;
+  }
+  .blog-item-wrapper:nth-last-of-type(-n+3) {
+    margin-bottom: 0px !important;
+  }
 }
 
 .contact-section {
@@ -13157,6 +13199,7 @@ footer .copyright a {
 
 .info-section {
   margin-top: 110px;
+  margin-bottom: 46px;
   padding: 63px 0 60px;
   background-color: #ECD9D9;
 }
@@ -13182,10 +13225,6 @@ footer .copyright a {
 
 .info-section p:last-of-type {
   margin-bottom: 0px;
-}
-
-footer {
-  margin-top: 46px;
 }
 
 @media (min-width: 992px) {
