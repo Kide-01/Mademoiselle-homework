@@ -1,40 +1,43 @@
 $blog-text-color:$gray-900;
-.blog-page-section{
+.blog_single-lead-section{
     margin-top: 20px;
-    .category{
-        color:$blog-text-color;
-        font-family:$bodini72;
-        font-size: 1.4rem;
-        font-weight: 700;
-        letter-spacing: 1px;
-        line-height: 1.7rem;
-        margin-bottom: 20px;
+    p{
+         margin-bottom: 20px;
+        .category{
+            color:$blog-text-color;
+            font-family:$bodini72;
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 1.7rem;
+           
+        }
+        .date-published{
+            color:$blog-text-color;
+            color: #1E1E1E;
+            font-family:$bodini72;
+            font-size: 1.4rem;
+            font-style: italic;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
     }
-    .date-published{
-        color:$blog-text-color;
-        color: #1E1E1E;
-        font-family:$bodini72;
-        font-size: 1.4rem;
-        font-style: italic;
-        font-weight: 300;
-        letter-spacing: 1px;
-    }
-    .blog-section-title{
+    .blog_single-lead-title{
         color:$blog-text-color;
         font-family: $lato;
         font-size: 4.4rem;
         letter-spacing: 0px;
         line-height: 5rem;
     }
-    .blog-section-description{
+    .blog_single-lead-description{
         font-size: 2rem;
         font-weight: 300;
         letter-spacing: 0;
         line-height:2.8rem;
     }
-    // .blog-section-description end
+    // .blog_single-lead-description end
 }
-//.blog-page-section end
+//.blog_single-lead  end
 
 
 
@@ -69,8 +72,10 @@ $blog-text-color:$gray-900;
             line-height: 2.7rem;
         }
 
-    }//.blog-tags end
-}//.blog-single-content end
+    }
+    //.blog-tags end
+}
+//.blog-single-content end
 
 .footer-blog{
     margin-top: 0px;
@@ -78,18 +83,20 @@ $blog-text-color:$gray-900;
 
 //MEDIA BEGIN
 @media(min-width:768px){
-    .blog-page-section{
-    margin-top: 80px;
+    .blog_single-lead-section{
+        margin-top: 80px;
     }
     .blog-single-content{
-    padding: 75px 0 100px;
+        padding: 75px 0 100px;
     }
-}//media 768 end
+}
+//media 768 end
 @media(min-width:992px){
-    .blog-page-section{
-    margin-top: 165px;
+    .blog_single-lead-section{
+        margin-top: 165px;
     }
     .blog-single-content{
-    padding: 97px 0 273px;
+        padding: 97px 0 273px;
     }
-}//media 992 end
+}
+//media 992 end

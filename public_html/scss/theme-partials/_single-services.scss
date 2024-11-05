@@ -1,6 +1,6 @@
 .single-service-section{
     padding-top: 50px;
-        .single-service-caption{
+    .single-service-caption{
         .single-service-title{
             font-family:$lato;
             font-size: 3rem;
@@ -15,7 +15,7 @@
         }
     }
 }
-.single-services-trends-section{
+.services-trends-section{
     margin-bottom: 100px;
 }
 // MEDIA START
@@ -43,15 +43,15 @@
             }
         }
     }
-    .single-services-trends-section{
-    margin-bottom: 170px;
-}
+    .services-trends-section{
+        margin-bottom: 170px;
+    }
 }
 //media 992 end
 
 @media(min-width:1200px){
     .single-service-section{
-              padding: 170px 0 106px;
+        padding: 170px 0 106px;
         .single-service-caption{
             .single-service-title{
                 font-size: 4.4rem;
@@ -65,8 +65,8 @@
         //.single-service-caption end
     }
     //.single-service-section end
-    .single-services-trends-section{
-    margin-bottom: 216px;
-}
+    .services-trends-section{
+        margin-bottom: 216px;
+    }
 }
 //media 1200 end

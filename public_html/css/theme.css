@@ -13056,7 +13056,7 @@ footer .copyright a {
   line-height: 2.2rem;
 }
 
-.single-services-trends-section {
+.services-trends-section {
   margin-bottom: 100px;
 }
 
@@ -13075,7 +13075,7 @@ footer .copyright a {
     overflow: unset;
     height: auto;
   }
-  .single-services-trends-section {
+  .services-trends-section {
     margin-bottom: 170px;
   }
 }
@@ -13092,7 +13092,7 @@ footer .copyright a {
     font-size: 1.8rem;
     line-height: 2.6rem;
   }
-  .single-services-trends-section {
+  .services-trends-section {
     margin-bottom: 216px;
   }
 }
@@ -13140,7 +13140,7 @@ footer .copyright a {
 }
 
 .contact-section {
-  margin-top: 102px;
+  margin-top: 30px;
 }
 
 .contact-section h2, .contact-section .h2 {
@@ -13158,6 +13158,10 @@ footer .copyright a {
 .contact-section .form-group:last-of-type {
   margin-bottom: 0px;
   margin-top: 29px;
+}
+
+.contact-section .form-group textarea {
+  resize: none;
 }
 
 .contact-section .form-group .form-control {
@@ -13184,17 +13188,9 @@ footer .copyright a {
   text-align: center;
 }
 
-.contact-section .google-map {
-  padding-bottom: 50%;
-  position: relative;
-}
-
-.contact-section .google-map iframe {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: absolute;
+.contact-section .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
 }
 
 .info-section {
@@ -13228,50 +13224,46 @@ footer .copyright a {
 }
 
 @media (min-width: 992px) {
-  .contact-section .google-map {
-    padding-bottom: 118%;
-    padding-right: 0%;
-    position: relative;
-  }
-  .contact-section .google-map iframe {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
+  .contact-section {
+    margin-top: 72px;
+    background-image: url(..//img/assets/map.png);
+    background-position: right top;
+    background-size: 50% 96%;
+    background-repeat: no-repeat;
   }
 }
 
 @media (min-width: 1200px) {
-  .contact-section .google-map {
-    padding-bottom: 110%;
-    padding-right: 0%;
-    position: relative;
-  }
-  .contact-section .google-map iframe {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
+  .contact-section {
+    margin-top: 102px;
+    background-size: 40% 100%;
   }
 }
 
-.blog-page-section {
+@media (min-width: 1400px) {
+  .contact-section {
+    background-size: 42% 100%;
+  }
+}
+
+.blog_single-lead-section {
   margin-top: 20px;
 }
 
-.blog-page-section .category {
+.blog_single-lead-section p {
+  margin-bottom: 20px;
+}
+
+.blog_single-lead-section p .category {
   color: #1E1E1E;
   font-family: "Bodoni 72";
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.7rem;
-  margin-bottom: 20px;
 }
 
-.blog-page-section .date-published {
+.blog_single-lead-section p .date-published {
   color: #1E1E1E;
   color: #1E1E1E;
   font-family: "Bodoni 72";
@@ -13281,7 +13273,7 @@ footer .copyright a {
   letter-spacing: 1px;
 }
 
-.blog-page-section .blog-section-title {
+.blog_single-lead-section .blog_single-lead-title {
   color: #1E1E1E;
   font-family: "Lato", sans-serif;
   font-size: 4.4rem;
@@ -13289,7 +13281,7 @@ footer .copyright a {
   line-height: 5rem;
 }
 
-.blog-page-section .blog-section-description {
+.blog_single-lead-section .blog_single-lead-description {
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 0;
@@ -13337,7 +13329,7 @@ footer .copyright a {
 }
 
 @media (min-width: 768px) {
-  .blog-page-section {
+  .blog_single-lead-section {
     margin-top: 80px;
   }
   .blog-single-content {
@@ -13346,11 +13338,123 @@ footer .copyright a {
 }
 
 @media (min-width: 992px) {
-  .blog-page-section {
+  .blog_single-lead-section {
     margin-top: 165px;
   }
   .blog-single-content {
     padding: 97px 0 273px;
+  }
+}
+
+.about-section {
+  margin-top: 60px;
+}
+
+.about-section .about-title {
+  margin-bottom: 50px;
+  font-size: 4.4rem;
+  line-height: 5rem;
+}
+
+.about-section .about-lead-text {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  padding-bottom: 28px;
+}
+
+.about-section .about-text {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  padding-bottom: 55px;
+}
+
+.about-section .about-blog .about-blog-search {
+  border: 1px solid #1E1E1E;
+  margin-bottom: 43px;
+}
+
+.about-section .about-blog .about-blog-search .search-input-wrapper .search-input {
+  height: 69px;
+  padding: 0px 22px;
+}
+
+.about-section .about-blog .about-blog-search .search-input-wrapper .search-input::placeholder {
+  font-family: "Bodoni 72";
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.about-section .about-blog .about-blog-search .search-input-wrapper .search-icon {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  /* Adjust icon size */
+  height: 20px;
+  pointer-events: none;
+  /* Prevent clicking on the icon */
+}
+
+.about-section .about-blog .about-blog-article-container {
+  margin-bottom: 100px;
+}
+
+.about-section .about-blog .about-blog-article-container .about-blog-item-wrapper {
+  margin-bottom: 0px;
+}
+
+.about-section .about-blog .about-blog-article-container .about-blog-item-wrapper .about-blog-item-description {
+  background-color: #fff;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  padding: 22px 18px 57px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 313px;
+  max-height: 161px;
+  z-index: 10;
+}
+
+.about-section .about-blog .about-blog-article-container .about-blog-item-wrapper .about-blog-item-description .about-blog-date {
+  font-family: "Bodoni 72";
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.1rem;
+  color: #1E1E1E;
+}
+
+.about-section .about-blog .about-blog-article-container .about-blog-item-wrapper .about-blog-item-description .about-blog-text {
+  margin-top: 17px;
+  margin-bottom: 0px;
+  height: 48px;
+  overflow: hidden;
+}
+
+.about-section .about-blog .about-blog-article-container .about-blog-item-wrapper .about-blog-item-description .about-blog-text a {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  line-height: 2.4rem;
+}
+
+@media (min-width: 992px) {
+  .about-section {
+    margin: 91px 0 78px;
+  }
+  .about-section .about-lead-text {
+    margin-bottom: 29px;
+  }
+  .about-section .about-img-wrapper {
+    margin-bottom: 66px !important;
   }
 }
 
